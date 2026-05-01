@@ -130,4 +130,8 @@ describe('Create New Account - Validation Tests', () => {
         expect(validator.validateDateOfBirth('15/00/2000')).toBe(false);
     });
 
+    test('26. BVA / Security - Name exceeding 50 characters should fail', () => {
+    const LongestName = "A".repeat(51); 
+    expect(validator.validateName(LongestName)).toBe(false);
+    });
 });

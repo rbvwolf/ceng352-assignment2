@@ -4,6 +4,8 @@ class Validator {
     validateName(name) {
         if (!name || name.trim() === ""){ 
             return false;}
+        if (name.length > 50)
+            return false;
         const nameRegex = /^[a-zA-ZğüşıöçĞÜŞİÖÇ\s]+$/;
         return nameRegex.test(name);
     }
