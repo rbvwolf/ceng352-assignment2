@@ -32,7 +32,7 @@ nameInputs.forEach(input => {
         
         const message = document.getElementById('message');
         if (/[0-9]/.test(this.value)) {
-            message.innerText = "İsim alanına rakam girilemez!";
+            message.innerText = "Only use Letters!";
             message.style.color = "red";
         }
     });
