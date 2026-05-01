@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="src/style.css" >
+</head>
+<body >
+    <div class="signup-container">
+        <h2>Create New Account</h2>
+        <form id="registrationForm">
+            <div class="input-group">
+                <input type="text" id="firstName" pattern="[A-Za-zÇçĞğİıÖöŞşÜü\s]+" placeholder="First Name (only use letters)" required>
+                <input type="text" id="lastName" pattern="[A-Za-zÇçĞğİıÖöŞşÜü\s]+" placeholder="Last Name (only use letters)" required>
+            </div>
+            
+            <input type="email" id="email" placeholder="E-mail" required>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required>
+            
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            
+            <button type="submit" id="submitBtn">Submit</button>
+            <p id="message"></p>
+        </form>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+</html>

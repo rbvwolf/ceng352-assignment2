@@ -1,0 +1,52 @@
+body {
+    background-image: url('manzara.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    background: rgb(73, 140, 145);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+h2 { text-align: center; color: #95c0b5; }
+
+label{ text-align: center; color: #95c0b5;}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #51634c;
+    border-radius: 6px;
+    box-sizing: border-box; /* Padding'in genişliği bozmasını engeller */
+}
+
+.input-group { display: flex; gap: 10px; }
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover { background-color: #218838; }
+
+#message { text-align: center; font-size: 14px; margin-top: 10px; }
