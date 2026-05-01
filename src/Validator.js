@@ -1,4 +1,3 @@
-const message = document.getElementById('message');
 class Validator {
    
     // Name and surname validation
