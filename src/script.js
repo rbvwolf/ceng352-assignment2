@@ -5,14 +5,14 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     const confirmPassword = document.getElementById('confirmPassword').value;
     const message = document.getElementById('message');
     
-    // Örnek bir Boundary Value Analysis (BVA) mantığı
+    // BVA Test for Password
     if (password.length < 8) {
         message.innerText = "Error: Password must be at least 8 characters!";
         message.style.color = "red";
         return;
     }
 
-    // Eşdeğer Bölümleme (EP) mantığı
+    // EP Test for Password
     if (password !== confirmPassword) {
         message.innerText = "Error: Passwords do not match!";
         message.style.color = "red";
@@ -27,7 +27,7 @@ const nameInputs = [document.getElementById('firstName'), document.getElementByI
 
 nameInputs.forEach(input => {
     input.addEventListener('input', function() {
-        // Harf dışındaki her şeyi (rakam, sembol vb.) anında temizler
+        // Clean everything except letters
         this.value = this.value.replace(/[^a-zA-ZçğıöşüÇĞİÖŞÜ\s]/g, '');
         
         const message = document.getElementById('message');
