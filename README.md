@@ -67,4 +67,4 @@ The successful execution of all tests indicates that the login system is stable 
 
 ### Conclusion
 
-This project highlights the importance of automated testing in modern software development. By integrating unit tests with a CI pipeline, we ensure continuous validation of system behavior, reduce the risk of bugs, and maintain high software quality—especially in critical components such as authentication systems.
+This project highlights the importance of automated testing in modern software development. By integrating unit tests with a CI pipeline, we ensure continuous validation of system behavior, reduce the risk of bugs, and maintain high software quality especially in critical components such as authentication systems.
