@@ -7,9 +7,13 @@ This project demonstrates the implementation of automated unit testing for a cus
 The login interface includes the following input fields:
 
 -First Name
+
 -Last Name
+
 -Email Address
+
 -Password
+
 -Password Confirmation
 
 The primary goal of this project is to ensure that all user inputs are validated correctly and that the system behaves reliably under different scenarios.
@@ -19,9 +23,13 @@ The primary goal of this project is to ensure that all user inputs are validated
 A total of 26 unit tests were designed and implemented to verify the functionality of the login system. The tests cover a wide range of validation cases, including:
 
 -Empty or missing input fields
+
 -Invalid email formats
+
 -Password constraints (e.g., length, format)
+
 -Password confirmation mismatch
+
 -Edge cases and invalid user behavior
 
 All test cases were executed successfully, and 100% of the tests passed, confirming that the system produces the expected outcomes.
@@ -31,19 +39,28 @@ All test cases were executed successfully, and 100% of the tests passed, confirm
 The project integrates automated testing using GitHub Actions. The CI pipeline is configured to:
 
 -Automatically run all unit tests on each push or update
+
 -Detect errors early in the development process
+
 -Ensure that new changes do not break existing functionality
 
 This approach improves software reliability and supports continuous quality assurance.
 
 ### Technologies Used
 -HTML – Structure of the login page
+
 -CSS – Styling and layout
+
 -JavaScript – Input validation logic
+
 -GitHub Actions – Automated testing and CI pipeline
+
 Results:
+
 -Total Tests: 26
+
 -Passed Tests: 26
+
 -Failed Tests: 0
 
 The successful execution of all tests indicates that the login system is stable and behaves as expected under all tested conditions.
