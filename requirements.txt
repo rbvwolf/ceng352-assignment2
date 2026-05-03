@@ -1,0 +1,4 @@
+Node.js >= 18.x
+npm >= 9.x
+Jest >= 29.x (Testing Framework)
+GitHub Actions (CI/CD Automation)
